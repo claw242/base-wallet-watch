@@ -1,0 +1,5 @@
+{
+  "adresses": [
+    { "adresse": "0x4200000000000000000000000000000000000006", "nom": "exemple-contrat-public", "seuilUsdc": "5", "seuilEth": "0.0005" }
+  ]
+}

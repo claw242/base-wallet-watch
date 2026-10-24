@@ -1,0 +1,21 @@
+{
+  "name": "base-wallet-watch",
+  "version": "0.1.0",
+  "description": "Suivi en lecture seule des soldes ETH et USDC d'adresses sur Base : alerte de solde bas et export JSON.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "couverture": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "suivi": "tsx src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@vitest/coverage-v8": "^5.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
