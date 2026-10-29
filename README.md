@@ -1,6 +1,6 @@
 # Base Wallet Watch
 
-A local, read-only command-line demo for checking the ETH and native USDC balances of Base wallet addresses you explicitly list. It reports low balances and exports a JSON snapshot. Maintained publicly as Christian.
+A local, read-only command-line demo for checking the ETH and native USDC balances of Base wallet addresses you explicitly list. It reports low balances and exports a JSON snapshot. Maintained by Loupe & Lettres. This project was created with the help of AI (créé avec l'aide de l'IA).
 
 This is a local demo. It is not a hosted monitoring service. Each command checks once; it does not keep watching after it exits or send background notifications. No payment, wallet connection, account, private key or seed phrase is required.
 
